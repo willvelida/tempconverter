@@ -152,6 +152,12 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="TempConverter.cpp" />
+    <ClCompile Include="TempConverters.cpp" />
+    <ClCompile Include="UserInput.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="TempConverters.h" />
+    <ClInclude Include="UserInput.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

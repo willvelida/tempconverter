@@ -1,38 +1,6 @@
 #include <iostream>
-
-double calculateTempInFahrenheit(double tempc)
-{
-	double tempf = (tempc * 1.8) + 32;
-
-	return tempf;
-}
-
-double calculateTempInCelsius(double tempf)
-{
-	double tempc = (tempf - 32) * 0.5556;
-
-	return tempc;
-}
-
-void printTempInFahrenheit(double tempf)
-{
-	std::cout << "The current temperature is " << tempf << " Fahrenheit.\n";
-}
-
-void printTempInCelsius(double tempc)
-{
-	std::cout << "The current temperature is " << tempc << " Celsius.\n";
-}
-
-char askForInput()
-{
-	char userInput;
-
-	std::cout << "Please enter C for Celsius or F for Fahrenheit\n";
-	std::cin >> userInput;
-
-	return userInput;
-}
+#include "TempConverters.h"
+#include "UserInput.h"
 
 int main()
 {
